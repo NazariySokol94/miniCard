@@ -1,0 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,400;0,600;1,300&display=swap');
+body { background: aliceblue; font-family: 'Nunito'; }
+.card {position: absolute; top: 50%; left: 50%; margin-right: -50%; transform: translate(-50%, -50%); background: #fff; border-radius: 12px; box-shadow: 2px 2px 22px #c1c1c1; padding: 30px; max-width: 440px; }
+.avatar { border-radius: 999px; width: 150px; margin-top: 26px 0px 0px 20px;  } 
+.follow-btn { border-radius: 99px; padding: 8px 20px; background: #121212; color: #fff; float: right; font-size: 12px; margin: 20px 22px 0px 0px; transition: .3s ease; }
+.follow-btn:hover { cursor: pointer; background: #f1f1f1; color: #121212; }
+.name { font-weight: 600; font-size: 21px; margin-top: 8px; }
+.username { font-size: 14px; color: #818181; margin-top: -22px; }
+.info { color: #111; font-weight: 600; font-size: 14px; }
+.bottom-data { font-weight: 600; color: #515151; font-size: 14px; margin-top: 30px; }
+.bottom-data span { color: gray; }
